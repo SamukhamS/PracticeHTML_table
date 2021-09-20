@@ -1,0 +1,36 @@
+body{
+    background: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background: white;
+    width: 400px;
+    padding: 50px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.images{
+    border-radius: 50%;
+}
+
+.container > .row {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
